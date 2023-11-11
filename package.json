@@ -1,0 +1,22 @@
+{
+	"author": "Akhil Pillai",
+	"description": "",
+	"devDependencies": {
+		"@types/node": "^20.9.0",
+		"eslint": "^8.53.0",
+		"npm-check-updates": "^16.14.6",
+		"prettier": "^3.0.3",
+		"typescript": "^5.2.2"
+	},
+	"license": "GPL-3.0",
+	"main": "src/index.ts",
+	"type": "commonjs",
+	"private": true,
+	"scripts": {
+		"compilw": "tsc",
+		"lint": "eslint .",
+		"format": "prettier -w .",
+		"types": "cd BetterDiscord/renderer && npm i && cd .. && tsc && echo \"Remember to add the 'export' keyword to the 'BdApi' class in 'types/modules/api/index.d.ts'!\"",
+		"upgrade": "ncu -u && npm i"
+	}
+}

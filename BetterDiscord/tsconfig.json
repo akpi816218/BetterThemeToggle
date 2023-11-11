@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"module": "CommonJS",
+		"strict": true,
+		"skipLibCheck": false,
+		"target": "ESNext",
+		"lib": ["ESNext", "DOM"],
+		"isolatedModules": true,
+		"alwaysStrict": true,
+		"declaration": true,
+		"declarationDir": "../types",
+		"emitDeclarationOnly": true,
+		"allowJs": true
+	},
+	"files": ["renderer/src/modules/api/index.js"]
+}

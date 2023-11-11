@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"forceConsistentCasingInFileNames": true,
+		"module": "CommonJS",
+		"strict": true,
+		"skipLibCheck": true,
+		"target": "ESNext",
+		"lib": ["ESNext", "DOM"],
+		"isolatedModules": true,
+		"alwaysStrict": true
+	},
+	"include": ["./*.js", "types/**/*", "BetterThemeToggle.plugin.js"],
+	"exclude": ["node_modules"]
+}
