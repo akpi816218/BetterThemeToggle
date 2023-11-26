@@ -1,10 +1,9 @@
 {
-	"extends": ["recommended"],
+	"extends": ["eslint:recommended"],
 	"parserOptions": {
 		"ecmaVersion": "latest",
 		"sourceType": "script"
 	},
-	"root": true,
 	"rules": {
 		"camelcase": "error",
 		"capitalized-comments": "off",
