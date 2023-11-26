@@ -13,10 +13,8 @@
 	"type": "commonjs",
 	"private": true,
 	"scripts": {
-		"compilw": "tsc",
-		"lint": "eslint .",
+		"lint": "tsc && eslint .",
 		"format": "prettier -w .",
-		"types": "cd BetterDiscord/renderer && npm i && cd .. && tsc && echo \"Remember to add the 'export' keyword to the 'BdApi' class in 'types/modules/api/index.d.ts'!\"",
 		"upgrade": "ncu -u && npm i"
 	}
 }

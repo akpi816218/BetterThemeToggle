@@ -9,6 +9,6 @@
 		"isolatedModules": true,
 		"alwaysStrict": true
 	},
-	"include": ["./*.js", "types/**/*", "BetterThemeToggle.plugin.js"],
+	"include": ["./**/*.js"],
 	"exclude": ["node_modules"]
 }
